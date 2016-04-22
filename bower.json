@@ -1,0 +1,24 @@
+{
+  "name": "nglHref",
+  "description": "Directive that works in conjunction with currency filter.",
+  "main": "dist/ngl-href.min.js",
+  "authors": [
+    "Alexandre Kilian <alexandre@pulpmedia.at>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "location",
+    "href",
+    "html5Mode",
+    "directive"
+  ],
+  "homepage": "https://github.com/Pulpmedia/ngl-href",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
