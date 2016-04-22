@@ -11,4 +11,4 @@ results in
 <a href="/home"></a>
 ```
 
-klicking the link will trigger ```$location.path()``` instead, wich makes it independent from the environment.
+clicking the link will trigger ```$location.path()``` instead, wich makes it independent from the environment.
