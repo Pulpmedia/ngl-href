@@ -20,9 +20,11 @@ angular.module('nglHref',[])
       },
       link: function postLink(scope, element, attrs) {
         attrs.$set('href',scope.path);
-        element[0].onclick = function(evt){
-          evt.preventDefault();
-          location.path(scope.path);
+        element[0].onclick = function(evt) {
+          if (!evt.metaKey) {
+            evt.preventDefault();
+            location.path(scope.path); // in same tab
+          }
           scope.$apply();
         }
       }
